@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Requerimientos No Funcionales</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="inicio.html">Inicio</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalSeguridad">Seguridad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalRendimiento">Rendimiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalUsabilidad">Usabilidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalConfiabilidad">Confiabilidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalMantenibilidad">Mantenibilidad</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="seguridad" class="row">
+      <div class="col-md-7">
+        <h2>Seguridad</h2>
+        <p></p><strong>Definición:</strong>
+            La seguridad se refiere a la capacidad de un sistema para proteger la información confidencial y las operaciones contra accesos no autorizados, modificaciones, divulgación o destrucción.
+            <br><strong>Importancia:</strong> La seguridad es fundamental para cualquier sistema que maneje información sensible, como datos financieros, información personal o datos médicos. Un sistema inseguro puede ser vulnerable a ataques, lo que podría resultar en la pérdida de datos, daños financieros o violaciones de la privacidad.</br>
+            <strong>Ejemplos:</strong>
+            <br>Autenticación y autorización: Asegurar que solo los usuarios autorizados puedan acceder al sistema y a los datos.
+            Criptografía: Proteger la información confidencial mediante el cifrado.
+            <br>Control de acceso: Restrictar el acceso a los datos y las funciones del sistema según el rol del usuario.
+            <br>Gestión de vulnerabilidades: Identificar y corregir las vulnerabilidades de seguridad en el sistema.
+            <br>Auditoría de seguridad: Registrar y monitorear las actividades del sistema para detectar posibles amenazas.</p>
+        <img src="img/1.png" alt="Security Image">
+      </div>
+      <div class="col-md-6">
+        <h2>Rendimiento</h2>
+        <p><strong>Definición:</strong> El rendimiento se refiere a la capacidad de un sistema para responder a las solicitudes de los usuarios de manera rápida y eficiente.
+            <br><strong>Importancia:</strong> Un buen rendimiento es esencial para la satisfacción del usuario y la productividad. Un sistema lento o que se bloquea con frecuencia puede frustrar a los usuarios y afectar negativamente a su experiencia.
+            <br><strong>Ejemplos:</strong>
+            <br>Tiempo de respuesta: El tiempo que tarda el sistema en responder a una solicitud del usuario.
+            <br>Tasa de transferencia: La cantidad de datos que el sistema puede transferir por unidad de tiempo.
+            <br>Uso de recursos: El consumo de recursos del sistema, como CPU, memoria y disco.
+            <br>Escalabilidad: La capacidad del sistema para manejar un aumento en la carga de trabajo.</p>
+        <img src="img/2.png" alt="Performance Image">
+      </div>
+      <div class="col-md-4">
+        <h2>Usabilidad</h2>
+        <p><strong>Definición: </strong>La usabilidad se refiere a la facilidad con la que los usuarios pueden aprender, usar y ser efectivos con un sistema.
+            <br><strong>Importancia:</strong> La usabilidad es esencial para garantizar que los usuarios puedan utilizar el sistema de manera eficiente y efectiva. Un sistema difícil de usar puede llevar a errores, frustraciones y pérdida de productividad.
+            <br><strong>Ejemplos:</strong>
+            <br>Claridad: La interfaz del sistema debe ser clara y fácil de entender.
+            <br>Consistencia: El sistema debe ser consistente en su diseño y comportamiento.
+            <br>Eficiencia: El sistema debe permitir a los usuarios realizar tareas de manera eficiente.
+            <br>Aprendizaje: El sistema debe ser fácil de aprender y usar.
+            <br>Satisfacción: El sistema debe ser agradable de usar y no causar frustraciones a los usuarios.
+            </p>
+        <img src="img/3.png" alt="Usability Image">
+      </div>
+      <div class="col-md-4">
+        <h2>Confiabilidad</h2>
+        <p><strong>Definición:</strong> La confiabilidad se refiere a la capacidad de un sistema para funcionar correctamente durante un período de tiempo determinado.
+            <br><strong>Importancia:</strong> La confiabilidad es esencial para garantizar que el sistema esté disponible cuando se necesita y que funcione correctamente. Un sistema poco confiable puede resultar en pérdida de datos, tiempo de inactividad y daños financieros.
+            <br><strong>Ejemplos:</strong>
+            <br>Disponibilidad: La probabilidad de que el sistema esté disponible para los usuarios cuando se necesita.
+            <br>Fiabilidad: La probabilidad de que el sistema funcione correctamente durante un período de tiempo determinado.
+            <br>Tolerancia a fallos: La capacidad del sistema para continuar funcionando incluso si se produce un fallo en uno de sus componentes.
+            <br>Recuperación de errores: La capacidad del sistema para recuperarse de un fallo y volver a un estado operativo normal.</p>
+        <img src="img/4.png" alt="Reliability Image">
+      </div>
+      <div class="col-md-4">
+        <h2>Mantenibilidad</h2>
+        <p><strong>Definición:</strong> La mantenibilidad se refiere a la facilidad con la que un sistema puede ser modificado, reparado o actualizado.
+            <br><strong>Importancia:</strong> La mantenibilidad es esencial para garantizar que el sistema pueda adaptarse a las necesidades cambiantes y que se puedan corregir los errores o las vulnerabilidades de seguridad. Un sistema difícil de mantener puede resultar en costos de desarrollo y mantenimiento elevados.
+            <br><strong>Ejemplos:</strong>
+            <br>Modularidad: El sistema debe estar dividido en módulos independientes que puedan ser modificados o actualizados sin afectar a otros módulos.
+            <br>Documentación: El sistema debe tener una documentación clara y completa que describa su diseño, funcionamiento y mantenimiento.
+            <br>Testabilidad: El sistema debe ser fácil de probar para garantizar que los cambios no introduzcan errores.
+            <br>Adaptabilidad: El sistema debe ser capaz de adaptarse a los cambios en los requisitos o en el entorno.</p>
+        <img src="img/5.png" alt="Reliability Image">
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Seguridad -->
+  <div class="modal" id="modalSeguridad">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre la Seguridad del Software</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>La aplicación debe garantizar la privacidad de la información para cada usuario, cumpliendo con estándares de seguridad.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Rendimiento -->
+  <div class="modal" id="modalRendimiento">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre el Rendimiento del Software</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>La aplicación debe responder de manera rápida y eficiente, incluso en momentos de alta demanda.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Usabilidad -->
+  <div class="modal" id="modalUsabilidad">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre el Uso del Software</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>La interfaz de usuario sera intuitiva y fácil de usar, proporcionando una experiencia amigable para el usuario.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Confiabilidad -->
+  <div class="modal" id="modalConfiabilidad">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre la Confiabilidad del Software</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>La aplicación debe ser confiable y segura, evitando fallos y garantizando la integridad de los datos.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Mantenibilidad -->
+  <div class="modal" id="modalMantenibilidad">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre la Mantenibilidad del Software</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>La aplicación debe ser fácilmente mantenible, permitiendo actualizaciones regulares sin interrupciones en el servicio. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer mt-5 py-3 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-muted">© 2024 - Gastrostock</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Política de Privacidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Términos de Servicio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
